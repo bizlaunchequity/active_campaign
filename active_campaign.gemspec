@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'httpi', '>= 1.0', '< 3.0'
+  spec.add_dependency 'httpi', '>= 4.0.2'
   spec.add_dependency 'multi_json', '>= 1.0', '< 2'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0'
   spec.add_development_dependency 'fuubar', '~> 2.0'
